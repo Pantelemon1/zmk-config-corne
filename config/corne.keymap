@@ -124,6 +124,13 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <176>;
         };
+
+        behavior_tap_dance: behavior_tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BEHAVIOR_TAP_DANCE";
+            #binding-cells = <0>;
+            bindings = <&none>, <&none>;
+        };
     };
 
     macros {
