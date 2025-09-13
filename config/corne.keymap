@@ -204,10 +204,10 @@
         macro_layer {
             display-name = "macro";
             bindings = <
-&none  &vim_quit  &vim_save  &none      &none   &none     &none   &vim_up  &none   &none  &none  &none
-&none  &none      &none      &vim_down  &none   &none     &none   &none    &none   &none  &none  &none
-&none  &none      &none      &none      &none   &none     &none   &none    &none   &none  &none  &none
-                             &trans     &trans  &trans    &trans  &trans   &trans
+&none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none
+&none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none
+&none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none
+                     &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
