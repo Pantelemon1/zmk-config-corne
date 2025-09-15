@@ -130,6 +130,8 @@
             label = "BEHAVIOR_TAP_DANCE";
             #binding-cells = <0>;
             bindings = <&none>, <&none>;
+
+            tapping-term-ms = <176>;
         };
     };
 
