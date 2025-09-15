@@ -183,7 +183,7 @@
         default_layer {
             display-name = "base";
             bindings = <
-&kp GRAVE    &kp Q          &kp W         &kp E               &kp R         &kp T            &kp Y          &kp U              &kp I                   &kp O         &kp P             &kp BACKSPACE
+&kp GRAVE    &kp Q          &kp W         &kp E               &kp R         &kp T            &kp Y          &kp U              &kp I                   &kp O         &kp P             &kp LEFT_BRACKET
 &kp ESC      &hrml LSHFT A  &hrml LALT S  &hrml LCTRL D       &hrml LCMD F  &kp G            &kp H          &hrmr RCMD J       &hrmr RCTRL K           &hrmr RALT L  &hrmr RSHFT SEMI  &kp SQT
 &kp LS(DEL)  &kp Z          &kp X         &hrmr LEFT_SHIFT C  &kp V         &kp B            &kp N          &tap_dance_kp_kp   &hrmr LEFT_SHIFT COMMA  &kp DOT       &kp FSLH          &kp BSLH
                                           &lthp 3 LS(N1)      &lthp 2 FSLH  &lthp 1 ENTER    &lthp 1 SPACE  &lthp 2 LS(SLASH)  &lthp 3 LS(NUMBER_7)
@@ -203,7 +203,7 @@
         raise_layer {
             display-name = "up";
             bindings = <
-&none  &kp EXCL   &kp AT    &kp HASH         &kp DLLR  &kp PRCNT    &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   &none     &none
+&none  &kp EXCL   &kp AT    &kp HASH         &kp DLLR  &kp PRCNT    &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   &none     &kp BACKSPACE
 &none  &kp CARET  &kp AMPS  &kp KP_ASTERISK  &kp LPAR  &kp RPAR     &kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &kp BSLH  &none
 &none  &none      &none     &none            &none     &none        &kp LBKT  &kp RBKT  &kp LT     &kp GT     &kp PIPE  &none
                             &trans           &trans    &trans       &trans    &trans    &trans
