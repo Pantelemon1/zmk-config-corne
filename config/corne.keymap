@@ -175,6 +175,11 @@
             bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <15 16>;
         };
+
+        mo3 {
+            bindings = <&mo 3>;
+            key-positions = <24 29>;
+        };
     };
 
     keymap {
