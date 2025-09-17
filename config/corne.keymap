@@ -181,6 +181,16 @@
             bindings = <&mo 3>;
             key-positions = <24 29>;
         };
+
+        left_skobka {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
+
+        r_sk {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
