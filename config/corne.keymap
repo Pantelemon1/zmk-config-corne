@@ -191,6 +191,11 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <6 7>;
         };
+
+        bek_slesh {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
