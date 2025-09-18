@@ -257,7 +257,7 @@
             >;
         };
 
-        layer_4 {
+        NuPad_4 {
             bindings = <
 &none  &none      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK    &none           &mkp MB1        &msc SCRL_UP    &mkp MB2         &none  &tog 4
 &none  &kp EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &msc SCRL_UP    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
