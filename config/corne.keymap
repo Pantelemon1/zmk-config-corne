@@ -180,7 +180,7 @@
         macro: macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp COMMA &kp F &kp Y &kp E &kp N &kp M &kp C &kp Z &kp SPACE &kp SQT &kp N &kp F &kp L &kp B &kp M &kp SPACE &kp H &kp F &kp COMMA &kp J &kp N &kp F &kp T &kp N &kp SPACE &kp EXCL>;
+            bindings = <&kp COMMA &kp F &kp Y &kp E &kp N &kp M &kp C &kp Z &kp SPACE &kp SQT &kp N &kp F &kp L &kp B &kp M &kp SPACE &kp H &kp F &kp COMMA &kp J &kp N &kp F &kp T &kp N &kp SPACE &kp EXCL &kp T &kp COMMA &kp F &kp Y &kp E &kp N &kp M &kp C &kp Z &kp SPACE &kp SQT &kp N &kp F &kp SPACE &kp L &kp B &kp X &kp M &kp SPACE &kp H &kp F &kp COMMA &kp J &kp N &kp F &kp T &kp N &kp EXCL &kp EXCL>;
             label = "MACRO";
         };
     };
