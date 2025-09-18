@@ -176,6 +176,17 @@
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LCTRL &kp D>;
         };
+
+        macro: macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&none>,
+                <&macro_press>,
+                <&kp T &kp COMMA &kp F &kp Y &kp E &kp N &kp M &kp C &kp Z &kp SPACE &kp SQT &kp N &kp F &kp L &kp B &kp M &kp SPACE &kp H &kp F &kp COMMA &kp J &kp N &kp F &kp T &kp N &kp SPACE &kp EXCL>;
+
+            label = "MACRO";
+        };
     };
 
     combos {
