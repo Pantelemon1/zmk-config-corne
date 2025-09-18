@@ -212,6 +212,11 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <7 8>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
