@@ -217,6 +217,11 @@
             bindings = <&kp MINUS>;
             key-positions = <2 3>;
         };
+
+        tog4 {
+            bindings = <&tog 4>;
+            key-positions = <30 35>;
+        };
     };
 
     keymap {
