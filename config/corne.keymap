@@ -224,9 +224,9 @@
         raise_layer {
             display-name = "up";
             bindings = <
-&none  &kp EXCL   &kp AT    &kp HASH      &kp DLLR  &kp PRCNT    &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   &none     &none
-&none  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR     &kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &kp BSLH  &none
-&none  &none      &none     &none         &none     &none        &none     &none     &kp LT     &kp GT     &kp PIPE  &none
+&none  &kp EXCL   &kp AT    &kp HASH      &kp DLLR  &kp PRCNT    &kp LPAR  &kp RPAR  &kp UNDER  &kp PLUS   &kp RS(TILDE)  &none
+&none  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR     &kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &kp BSLH       &none
+&none  &none      &none     &none         &none     &none        &none     &none     &kp LT     &kp GT     &kp PIPE       &none
                             &trans        &trans    &trans       &trans    &trans    &trans
             >;
         };
