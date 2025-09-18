@@ -259,10 +259,10 @@
 
         NuPad_4 {
             bindings = <
-&none  &none      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK    &none           &none   &none   &none  &none  &tog 4
-&none  &kp EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &msc SCRL_UP    &none   &none   &none  &none  &none
-&none  &kp SLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &msc SCRL_DOWN  &none   &none   &none  &none  &macro
-                                   &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER    &none           &trans  &trans
+&none  &none      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK    &none           &none  &none  &none  &none  &tog 4
+&none  &kp EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &msc SCRL_UP    &none  &none  &none  &none  &none
+&none  &kp SLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &msc SCRL_DOWN  &none  &none  &none  &none  &macro
+                                   &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER    &none           &none  &none
             >;
         };
 
