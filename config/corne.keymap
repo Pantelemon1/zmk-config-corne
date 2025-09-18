@@ -221,8 +221,8 @@
             display-name = "base";
             bindings = <
 &kp GRAVE      &kp Q          &kp W         &kp E               &kp R         &kp T            &kp Y          &kp U              &kp I                   &kp O         &kp P             &mo4_
-&kp ESC        &hrml LSHFT A  &hrml LALT S  &hrml LCTRL D       &hrml LCMD F  &kp G            &kp H          &hrmr RCMD J       &hrmr RCTRL K           &hrmr RALT L  &hrmr RSHFT SEMI  &kp SQT
-&kp BACKSPACE  &kp Z          &kp X         &hrmr LEFT_SHIFT C  &kp V         &kp B            &kp N          &tap_dance_kp_kp   &hrmr LEFT_SHIFT COMMA  &kp DOT       &kp FSLH          &kp BSLH
+&kp BACKSPACE  &hrml LSHFT A  &hrml LALT S  &hrml LCTRL D       &hrml LCMD F  &kp G            &kp H          &hrmr RCMD J       &hrmr RCTRL K           &hrmr RALT L  &hrmr RSHFT SEMI  &kp SQT
+&kp ESCAPE     &kp Z          &kp X         &hrmr LEFT_SHIFT C  &kp V         &kp B            &kp N          &tap_dance_kp_kp   &hrmr LEFT_SHIFT COMMA  &kp DOT       &kp FSLH          &kp BSLH
                                             &lthp 3 LS(N1)      &lthp 2 FSLH  &lthp 1 ENTER    &lthp 1 SPACE  &lthp 2 LS(SLASH)  &lthp 3 LS(NUMBER_7)
             >;
         };
