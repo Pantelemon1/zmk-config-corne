@@ -141,6 +141,13 @@
             #binding-cells = <0>;
             bindings = <&kp M>, <&kp RIGHT_BRACKET>;
         };
+
+        mo4_: mo4_ {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO4_";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&sl 4>;
+        };
     };
 
     macros {
