@@ -155,7 +155,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_E";
             #binding-cells = <0>;
-            bindings = <&kp E>, <&kp GRAVE>;
+            bindings = <&kp T>, <&kp GRAVE>;
         };
     };
 
