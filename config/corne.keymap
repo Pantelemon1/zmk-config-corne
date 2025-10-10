@@ -157,7 +157,7 @@
             #binding-cells = <0>;
             bindings = <&kp T>, <&kp GRAVE>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <175>;
         };
     };
 
