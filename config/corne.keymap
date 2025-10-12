@@ -224,12 +224,17 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <2 3>;
+            key-positions = <3 4>;
         };
 
         tog4 {
             bindings = <&tog 4>;
             key-positions = <30 35>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <29 30>;
         };
     };
 
