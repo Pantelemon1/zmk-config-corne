@@ -304,8 +304,8 @@
         layer_5 {
             bindings = <
 &none  &none        &none        &none        &none        &none          &none   &none   &none   &none  &none  &none
-&none  &kp LG(F13)  &kp LG(F14)  &kp LG(F14)  &kp LG(F15)  &kp LG(F16)    &none   &none   &none   &none  &none  &none
-&none  &kp LG(F17)  &kp LG(F18)  &kp LG(F19)  &kp LG(F19)  &kp LG(F20)    &none   &none   &none   &none  &none  &none
+&none  &kp LG(F13)  &kp LG(F14)  &kp LG(F15)  &kp LG(F16)  &kp LG(F17)    &none   &none   &none   &none  &none  &none
+&none  &kp LG(F18)  &kp LG(F19)  &kp LG(F20)  &kp LG(F21)  &kp LG(F23)    &none   &none   &none   &none  &none  &none
                                  &trans       &trans       &trans         &trans  &trans  &trans
             >;
         };
