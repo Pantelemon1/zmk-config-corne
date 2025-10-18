@@ -213,11 +213,6 @@
             key-positions = <15 16>;
         };
 
-        mo3 {
-            bindings = <&mo 3>;
-            key-positions = <24 29>;
-        };
-
         left_skobka {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <4 5>;
@@ -236,11 +231,6 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <3 4>;
-        };
-
-        tog4 {
-            bindings = <&tog 4>;
-            key-positions = <30 35>;
         };
 
         caps {
