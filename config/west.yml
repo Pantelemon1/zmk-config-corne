@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/urob
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3-branch
+      remote: urob
+      revision: main-with-native-mouse
       import: app/west.yml
   self:
     path: config
