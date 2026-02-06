@@ -214,7 +214,7 @@
         };
 
         left_skobka {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&to 4>;
             key-positions = <4 5>;
         };
 
