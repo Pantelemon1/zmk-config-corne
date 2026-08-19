@@ -214,11 +214,6 @@
             key-positions = <15 16>;
         };
 
-        left_skobka {
-            bindings = <&to 4>;
-            key-positions = <>;
-        };
-
         r_sk {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <6 7>;
