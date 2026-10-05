@@ -171,6 +171,15 @@
             label = "HRML_KP_MO";
             bindings = <&mo>, <&kp>;
         };
+
+        mo4_esc: mo4_esc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO4_ESC";
+            #binding-cells = <0>;
+            bindings = <&kp ESC>, <&tog 4>;
+
+            tapping-term-ms = <175>;
+        };
     };
 
     macros {
@@ -243,7 +252,7 @@
             bindings = <
 &kp TAB        &kp Q          &kp W         &kp E           &kp R         &kp T            &kp Y          &kp U              &kp I                 &kp O         &kp P             &mo4_
 &kp BACKSPACE  &hrml LSHFT A  &hrml LALT S  &hrml LCTRL D   &hrml LCMD F  &kp G            &kp H          &hrmr RCMD J       &hrmr RCTRL K         &hrmr RALT L  &hrmr RSHFT SEMI  &lthp 3 SQT
-&kp ESCAPE     &kp Z          &kp X         &kp C           &kp V         &kp B            &kp N          &kp M              &kp COMMA             &kp DOT       &kp FSLH          &kp BSLH
+&mo4_esc       &kp Z          &kp X         &kp C           &kp V         &kp B            &kp N          &kp M              &kp COMMA             &kp DOT       &kp FSLH          &kp BSLH
                                             &lthp 3 LS(N1)  &lthp 5 FSLH  &lthp 1 ENTER    &lthp 1 SPACE  &lthp 2 LS(SLASH)  &lthp 4 LS(NUMBER_7)
             >;
         };
@@ -280,10 +289,10 @@
 
         NuPad_4 {
             bindings = <
-&kp DEL         &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK    &kp LS(C)       &kp LS(O)  &none  &none  &none  &tog 4
-&kp BACKSPACE   &kp EQUAL       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &msc SCRL_UP    &none      &none  &none  &none  &none
-&kp KP_NUMLOCK  &kp SLASH       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &msc SCRL_DOWN  &none      &none  &none  &none  &none
-                                                 &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER    &none           &none      &none
+&kp DEL        &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK    &kp LS(C)       &kp LS(O)  &none  &none  &none  &tog 4
+&kp BACKSPACE  &kp EQUAL       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &msc SCRL_UP    &none      &none  &none  &none  &none
+&tog 4         &kp SLASH       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &msc SCRL_DOWN  &none      &none  &none  &none  &none
+                                                &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER    &none           &none      &none
             >;
         };
 
