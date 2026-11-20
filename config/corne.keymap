@@ -250,10 +250,10 @@
         default_layer {
             display-name = "base";
             bindings = <
-&kp TAB        &kp Q          &kp W         &kp E           &kp R         &kp T            &kp Y          &kp U              &kp I                 &kp O         &kp P             &mo4_
-&kp BACKSPACE  &hrml LSHFT A  &hrml LALT S  &hrml LCTRL D   &hrml LCMD F  &kp G            &kp H          &hrmr RCMD J       &hrmr RCTRL K         &hrmr RALT L  &hrmr RSHFT SEMI  &lthp 3 SQT
-&mo4_esc       &kp Z          &kp X         &kp C           &kp V         &kp B            &kp N          &kp M              &kp COMMA             &kp DOT       &kp FSLH          &kp BSLH
-                                            &lthp 3 LS(N1)  &lthp 5 FSLH  &lthp 1 ENTER    &lthp 1 SPACE  &lthp 2 LS(SLASH)  &lthp 4 LS(NUMBER_7)
+&kp TAB        &kp Q          &kp W         &kp E             &kp R         &kp T            &kp Y          &kp U                &kp I                   &kp O         &kp P             &mo4_
+&kp BACKSPACE  &hrml LSHFT A  &hrml LALT S  &hrml LCTRL D     &hrml LCMD F  &kp G            &kp H          &hrmr RCMD J         &hrmr RCTRL K           &hrmr RALT L  &hrmr RSHFT SEMI  &lthp 3 SQT
+&mo4_esc       &kp Z          &kp X         &kp C             &kp V         &kp B            &kp N          &kp M                &kp COMMA               &kp DOT       &kp FSLH          &kp BSLH
+                                            &lthp (3) LS(N1)  &lthp 5 FSLH  &lthp 1 ENTER    &lthp 1 SPACE  &lthp (2) LS(SLASH)  &lthp (4) LS(NUMBER_7)
             >;
         };
 
@@ -300,7 +300,7 @@
             bindings = <
 &none      &kp LA(LG(F13))  &kp LA(LG(F14))  &kp LA(LG(F15))  &kp LA(LG(F16))  &kp LA(LG(F17))    &none   &none   &none   &none  &none  &none
 &none      &kp LG(LA(F18))  &kp LG(LA(F19))  &kp LG(LA(F20))  &kp LG(LA(F21))  &kp LG(LA(F23))    &none   &none   &none   &none  &none  &none
-&kp LCTRL  &none            &none            &none            &none            &none              &none   &none   &none   &none  &none  &none
+&kp LCTRL  &none            &none            &none            &none            &none              &none   &none   &none   &none  &none  &kp C
                                              &trans           &trans           &trans             &trans  &trans  &trans
             >;
         };
